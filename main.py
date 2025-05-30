@@ -32,6 +32,8 @@ def create_entry(city_data:Add_Cities,session:Session = Depends(get_session))->d
     new_entry=cit_service.add_city(city_data,session)
     return new_entry
 
+#weather api to add it 
+
 
 
     

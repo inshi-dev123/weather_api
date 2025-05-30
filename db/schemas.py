@@ -11,8 +11,6 @@ class city(BaseModel):
     lat:float
     long:float
 
-
-
 class Add_Cities(BaseModel):
     city_location:str
 
@@ -20,5 +18,10 @@ class Weath_storage(BaseModel):
     city_loc:str
     localtime:datetime
     temp_c:float
+
+#class Weath_service(BaseModel):
+  #  city_loc:str
+   # localtime:datetime
+    #temp_c:float
 
  
